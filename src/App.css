@@ -1,12 +1,10 @@
 .contentContainer {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
-  overflow-x: hidden;
-}
-.navProductContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+  overflow-x: hidden;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import Categories from "./Pages/Categories";
-import Products from "./Pages/Products";
-import SingleProduct from "./components/SingleProduct/SingleProduct";
 import App from "./App";
+import EveryProduct from "./components/EveryProduct/EveryProduct";
+import Categories from "./Pages/Categories";
+import ProductInfo from "./components/productInfo/ProductInfo";
 import "./index.css";
 
 //https://fakestoreapi.com/docs
@@ -15,7 +15,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Products />,
+        element: <EveryProduct />,
+      },
+      {
+        path: "category/:category",
+        element: <Categories />,
+      },
+      {
+        path: "product/:product",
+        element: <ProductInfo />,
       },
     ],
   },
