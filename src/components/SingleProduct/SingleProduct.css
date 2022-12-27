@@ -80,3 +80,10 @@
   width: 300px;
   height: 300px;
 }
+.arrowBackIcon {
+  background-color: none;
+  transition: 0.3s ease-in-out;
+}
+.arrowBackIcon:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+}

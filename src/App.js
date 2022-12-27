@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+// I am using bootstrap for this App. just to know, you have alredy CSS a bit
 function App() {
   return (
     <>

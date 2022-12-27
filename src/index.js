@@ -7,7 +7,6 @@ import Categories from "./Pages/Categories";
 import Products from "./components/Products/Products";
 import "./index.css";
 
-//https://fakestoreapi.com/docs
 const router = createBrowserRouter([
   {
     path: "/",

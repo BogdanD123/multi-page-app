@@ -5,8 +5,6 @@ function ProductInfo() {
   const { product } = useParams();
   const [data, setData] = useState([]);
 
-  console.log(data, "here it is");
-
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products/${product}`)
       .then((res) => res.json())

@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import Categories from "../../Pages/Categories";
 import SingleProduct from "../SingleProduct/SingleProduct";
 import "./EveryProduct.css";
 
