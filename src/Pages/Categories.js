@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import SingleProduct from "../components/SingleProduct/SingleProduct";
 import "./Categories.css";
-function Categories({ data }) {
-  const { category } = useParams();
-
+function Categories() {
   const [singleCategory, setSingleCategory] = useState([]);
+
+  const { category } = useParams();
 
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products/category/${category}`)

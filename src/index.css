@@ -3,16 +3,11 @@ body {
   font-family: "Roboto Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("C:\Users\Lenovo\OneDrive\Desktop\vtorProekt\multi-page-app\src\components\AppBackground\AppBackground.jpg");
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://www.pngitem.com/pimgs/m/231-2317035_ftestickers-background-texture-bricks-wall-blackandwhite-monochrome-hd.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.primer {
-  position: absolute;
-  top: 90%;
-  right: 10%;
 }

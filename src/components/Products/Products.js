@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import SingleProduct from "../SingleProduct/SingleProduct";
-import "./ProductInfo.css";
 function ProductInfo() {
   const { product } = useParams();
   const [data, setData] = useState([]);
+
+  console.log(data, "here it is");
 
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products/${product}`)
@@ -13,7 +14,7 @@ function ProductInfo() {
   }, [product]);
 
   return (
-    <div className="productInfoContainer">
+    <div className="singleProductContainer">
       {<SingleProduct data={data} singleProductInfo={true} />}
     </div>
   );
